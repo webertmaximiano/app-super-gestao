@@ -9,5 +9,5 @@
 
 ## App Super Gestão
 
-Esse Aplicativo faz parte do Curso Laravel Avançado ele é uma aplicação básica onde colocamos em prática os conceitos aprendidos durante as aulas.:
+Esse Aplicativo foi desenvolvido no Curso Laravel Avançado ele é uma aplicação básica onde colocamos em prática os conceitos aprendidos durante as aulas.
 
