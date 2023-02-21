@@ -11,7 +11,7 @@ class TesteController extends Controller
         
         //return view('site.teste', ['p1' => $p1, 'p2' => $p2]); //array associativo
         
-        //return view('site.teste', compact('p1', 'p2')); //compact
+        //return view('site.teste', compact('p1', 'p2')); //compact nativo do PHP usa as strings names das variáveis e retorna o value dessas variáveis
 
         return view('site.teste')->with('p1', $p1)->with('p2', $p2); //with()
     }

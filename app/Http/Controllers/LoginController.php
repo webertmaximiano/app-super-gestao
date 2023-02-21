@@ -43,7 +43,7 @@ class LoginController extends Controller
         $email = $request->get('usuario');
         $password = $request->get('senha');
 
-        //iniciar o Model User
+        //iniciar o Model User para consultar o BD
         $user = new User();
 
         $usuario = $user->where('email', $email)
